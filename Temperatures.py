@@ -13,15 +13,15 @@ def To_fahrenheit():
     global celsius, fahrenheit
     celsius = float(input("Celsius: "))
     fahrenheit = celsius * 9.0 / 5 + 32
-    print("Result: {:.2f} F".format(fahrenheit))
-
+    #print("Result: {:.2f} F".format(fahrenheit))
+    return(fahrenheit)
 
 def To_Celcius():
     global fahrenheit, celsius
     fahrenheit = float(input("fahrenheit:  "))
     celsius = (5 / 9) * (fahrenheit - 32)
-    print("Result: {:.2f} C".format(celsius))
-
+    #print("Result: {:.2f} C".format(celsius))
+    return(celsius)
 
 while choice != "Q":
     if choice == "C":
